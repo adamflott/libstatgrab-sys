@@ -15,7 +15,9 @@ mod tests {
             let p: &mut u64 = &mut 0;
             let general_stats = sg_get_host_info(p);
 
-            let os_str = std::ffi::CStr::from_ptr((*general_stats).os_name).to_string_lossy().into_owned();
+            let os_str = std::ffi::CStr::from_ptr((*general_stats).os_name)
+                .to_string_lossy()
+                .into_owned();
 
             // TODO - find a better metric to compare against
             assert_eq!(os_str, "Linux");
