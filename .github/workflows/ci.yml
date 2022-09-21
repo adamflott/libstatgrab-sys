@@ -32,6 +32,8 @@ jobs:
     name: Rustfmt
     runs-on: ubuntu-latest
     steps:
+      - name: Install statgrab
+        run: sudo apt-get install -y libstatgrab-dev
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Install Rust toolchain
@@ -52,6 +54,8 @@ jobs:
     name: Clippy
     runs-on: ubuntu-latest
     steps:
+      - name: Install statgrab
+        run: sudo apt-get install -y libstatgrab-dev
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Install Rust toolchain
@@ -72,6 +76,8 @@ jobs:
     name: Docs
     runs-on: ubuntu-latest
     steps:
+      - name: Install statgrab
+        run: sudo apt-get install -y libstatgrab-dev
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Install Rust toolchain
@@ -93,6 +99,8 @@ jobs:
     name: Publish dry run
     runs-on: ubuntu-latest
     steps:
+      - name: Install statgrab
+        run: sudo apt-get install -y libstatgrab-dev
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Install Rust toolchain
@@ -111,6 +119,8 @@ jobs:
     name: Code coverage
     runs-on: ubuntu-latest
     steps:
+      - name: Install statgrab
+        run: sudo apt-get install -y libstatgrab-dev
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Install Rust toolchain
