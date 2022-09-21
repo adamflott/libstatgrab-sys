@@ -1,9 +1,9 @@
 # libstatgrab-sys
 
-[![Crates.io](https://img.shields.io/crates/v/libstatgrab-sys.svg)](https://crates.io/crates/xxx)
-[![Docs.rs](https://docs.rs/libstatgrab-sys/badge.svg)](https://docs.rs/xxx)
-[![CI](https://github.com/adamflott/libstatgrab-sys/workflows/CI/badge.svg)](https://github.com/adamflott/xxx/actions)
-[![Coverage Status](https://coveralls.io/repos/github/adamflott/libstatgrab-sys/badge.svg?branch=master)](https://coveralls.io/github/adamflott/xxx?branch=main)
+[![Crates.io](https://img.shields.io/crates/v/libstatgrab-sys.svg)](https://crates.io/crates/libstatgrab-sys)
+[![Docs.rs](https://docs.rs/libstatgrab-sys/badge.svg)](https://docs.rs/libstatgrab-sys)
+[![CI](https://github.com/adamflott/libstatgrab-sys/workflows/CI/badge.svg)](https://github.com/adamflott/libstatgrab-sys/actions)
+[![Coverage Status](https://coveralls.io/repos/github/adamflott/libstatgrab-sys/badge.svg?branch=master)](https://coveralls.io/github/adamflott/libstatgrab-sys?branch=main)
 
 ## Installation
 
