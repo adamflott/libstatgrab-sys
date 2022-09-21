@@ -22,7 +22,7 @@ Steps to reproduce the behavior:
 3. ...
 4. ...
 
-<!-- Make sure you are able to reproduce the bug in the main branch, too. -->
+<!-- Make sure you are able to reproduce the bug in the master branch, too. -->
 
 ## Expected behavior
 
@@ -37,7 +37,7 @@ Steps to reproduce the behavior:
 <!-- Please fill the following information. -->
 
 - OS: [e.g. Ubuntu 20.04]
-- xxx version: [e.g. 0.1.0]
+- libstatgrab-sys version: [e.g. 0.1.0]
 
 ## Additional context
 
