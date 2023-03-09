@@ -12,7 +12,7 @@ mod tests {
     fn sg_bindings_work() {
         unsafe {
             sg_init(1);
-            let p: &mut u64 = &mut 0;
+            let p: &mut usize = &mut 0;
             let general_stats = sg_get_host_info(p);
 
             let os_str = std::ffi::CStr::from_ptr((*general_stats).os_name)
